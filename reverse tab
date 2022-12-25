@@ -1,0 +1,4 @@
+table = int(input("enter number for table: "))
+print("reverse order: ")
+for tab in range(10,0,-1):
+    print(f"{table}x{tab}={table*tab}")
